@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Secrets & Environment
+.env
+.env.*
+
+# Raw Data & Logs (keep large dumps out of git)
+data/raw/
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
